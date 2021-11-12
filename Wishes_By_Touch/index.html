@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>wish page</title>
+
+    <style>
+
+      .main{
+
+        width:900px;
+
+        height:600px;
+
+        background-color: tomato;
+
+        margin-left: 30px;
+
+        
+
+      }
+
+      .header{
+
+        width:900px;
+
+        height:200px;
+
+        background-color:aqua;
+
+        background-color:green;
+
+        background-image: url(head.jpg);
+
+      }
+
+      #inp{
+
+      padding-top:50px;
+
+       margin-top:50px;
+
+       margin-bottom: 50px;
+
+       margin-left: 250px;
+
+       color:white;
+
+      font-size:50px;
+
+      border:none;
+
+      font-weight:bold;
+
+      }
+
+      .content{
+
+        display:inline-block;
+
+        padding:100px;
+
+        background-image: url("content.jpg");
+
+        background-size: cover;
+
+        height:33.5%;
+
+        width:77.8%;
+
+      }
+
+      .btn1{
+
+        padding:10px 60px 10px 60px;
+
+        margin-left: 100px;
+
+        background-color: deepskyblue;
+
+        border-radius:25px;
+
+       
+
+      }
+
+      .btn2{
+
+        padding:10px 60px 10px 60px;
+
+        margin-left: 30px;
+
+        background-color: deeppink;
+
+        border-radius:25px;
+
+      }
+
+      .btn3{
+
+        padding:10px 60px 10px 60px;
+
+        margin-left:30px;
+
+        background-color: springgreen;
+
+        border-radius:25px;
+
+      }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="main">
+
+  <div class="header">
+
+   <p id="inp">Wish To Geekster</p>
+
+    
+
+ 
+
+  </div>
+
+  
+
+  <div class="content">
+
+    <button class="btn1" onclick="godMn()">GM</button>
+
+    <button class="btn2"onclick="godEv()">GE</button>
+
+    <button class="btn3"onclick="godNg()">GN</button>
+
+  </div>
+
+</div>
+
+<script>
+
+function godMn(){
+
+ var first = document.getElementById("inp")
+
+ 
+
+ first.innerText="Good Morning GeekSter!!";
+
+ first.style.color="aqua";
+
+  }
+
+  function godEv(){
+
+   var second = document.getElementById("inp")
+
+   second.innerText="Good Evening GeekSter!!";
+
+    second.style.color="crimson";
+
+  }
+
+  function godNg(){
+
+    var Third = document.getElementById("inp")
+
+    Third.innerText="Good Night GeekSter!!"
+
+    Third.style.color="springgreen";
+
+  }
+
+ 
+
+ 
+
+</script>
+
+</body>
+
+</html>
