@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+        <style>
+            body{
+             height:100%;
+             width:100%;
+            }
+            .container{
+            height:620px;
+            width:760px;
+            background-color: rgb(198, 248, 248);
+            margin-left:100px;
+            }
+            #one{
+                box-shadow: 0 0 20px black;
+                background-color:white;
+                width: 600px;
+                margin: 50px auto;
+                height: 20px;
+                padding: 30px;
+                text-align: center;
+             
+            }
+           #two{
+               box-shadow: 0 0 20px black;
+               background-color:white;
+               width: 600px;
+               margin: 50px auto;
+               height: 20px;
+               padding: 30px;
+               text-align: center;
+           }
+           #three{
+               box-shadow: 0 0 20px black;
+               background-color:white;
+               width:600px ;
+               margin:50px auto ;
+               height: 20px;
+               padding: 30px;
+               text-align: center;
+           }
+           #button1{
+               color: gold;
+               font-size:20px;
+               border-color: gold;
+               margin-left:300px;
+               background-color:white;
+    
+            }
+           #button2{
+               color: gold;
+               font-size:20px;
+               border-color: gold;
+               margin-left:340px;
+               background-color:white;
+           }
+           #button3{
+               color: gold;
+               font-size:20px;
+               border-color: gold;
+               margin-left:340px;
+               background-color:white;
+           }
+      </style>
+    <script>
+   function fn1(){
+  let lang = prompt(' Yes / No');
+
+let feedback = lang.toLowerCase() === 'yes' ? `Thank you'  great!`:
+    `It's ${lang}`;
+
+alert(feedback);
+}
+     function fn2(){
+  let lang = prompt(' Yes / No');
+
+let feedback = lang.toLowerCase() === 'yes' ? `Thank you'  great!`:
+    `It's ${lang}`;
+
+alert(feedback);
+}
+    
+    
+    function fn3() {
+
+let lang = prompt(' Yes / No');
+
+let feedback = lang.toLowerCase() === 'yes' ? `Thank you'  great!`:
+    `It's ${lang}`;
+
+alert(feedback);
+}
+            
+      </script>
+    </head>
+    <body> 
+    	<div class="container">
+        <h1 style="font-style: italic; color: gold; text-align: center;padding-top:50px;font-size:45px;">General Questions</h1>
+    <div id="one">
+ Do You Accept All Major Credit Cards ?
+  <button id="button1" onclick="fn1()"><spam style="font-size:25px;">+</spam></button>
+    </div>
+    <div id="two">
+        Do You Support Local Framers?
+  <button id="button2" onclick="fn2()"><spam style="font-size:25px;">+</spam></button>
+    </div>
+    <div id="three">Do You Use Organic Ingredients ?
+ <button id="button3" onclick="fn3()"><spam style=" font-size:25px;">+</spam></button>
+    </div>
+   </div>
+    </body>
+</html>
