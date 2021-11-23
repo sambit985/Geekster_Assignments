@@ -1,1 +1,5 @@
+Task 1 - Perform addition, subtraction, multiplication, and division function and show all the results by concatenating it with a string like: sum is ... , product is ...
+ 
+Task 2 - Create a constant and try to create another constant with the same name and see what happens, fix the mistake if something goes wrong. 
 
+Task 3 - Create a Proper Landing Page using HTML and CSS.
