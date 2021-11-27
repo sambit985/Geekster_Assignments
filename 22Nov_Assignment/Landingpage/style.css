@@ -276,10 +276,6 @@ header .slider{
     filter: saturate(10%);
 }
 
-
-
-/* amit */
-
 .cards{
     position: relative;
     display: flex;
@@ -433,7 +429,9 @@ header .slider{
     background-color: rgb(143, 135, 135);
 
 }
-
+.stars{
+ color:springgreen;
+ }
 @media only screen and (max-width:768px){
     .cards{
         flex-direction: column;
@@ -444,7 +442,7 @@ header .slider{
     transform: scale(1.1);
 }
 
-/* Tanishqua */
+
 
 .form_section{
     width: 100%;
@@ -547,13 +545,6 @@ header .slider{
     border-radius: 3px;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .9);
 }
-
-
-/* Tanishqua */
-
-
-
-/* krishna */
 
 .container{
 	max-width: 1170px;
