@@ -234,27 +234,27 @@ header .slider{
 .b_card .two{
         background-position: center;
     background-size: cover;
-    background-image: url(./assets/room2.jpg);
+    background-image: url(./images/room2.jpg);
 }
 .b_card .three{
         background-position: center;
     background-size: cover;
-    background-image: url(./assets/room3.jpg);
+    background-image: url(./images/room3.jpg);
 }
 .b_card .four{
         background-position: center;
     background-size: cover;
-    background-image: url(./assets/room4.jpg);
+    background-image: url(./images/room4.jpg);
 }
 .b_card .five{
         background-position: center;
     background-size: cover;
-    background-image: url(./assets/room5.jpg);
+    background-image: url(./images/room5.jpg);
 }
 .b_card .six{
         background-position: center;
     background-size: cover;
-    background-image: url(./assets/room6.jpg);
+    background-image: url(./images/room6.jpg);
 }
 
 .b_card .desc{
