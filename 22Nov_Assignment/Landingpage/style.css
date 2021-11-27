@@ -229,7 +229,7 @@ header .slider{
 .b_card .one{
     background-position: center;
     background-size: cover;
-    background-image: url("./images/room1.jpg");
+    background-image: url(./images/room1.jpg);
 }
 .b_card .two{
         background-position: center;
