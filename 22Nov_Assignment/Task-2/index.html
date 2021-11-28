@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Page title</title>
+</head>
+<body>
+				<script>
+/* Define arrVariable as a constant and gives some value */
+const arrVariable = [10, 11, 12, 13];
+/* It will print 10,11,12,13*/
+console.log(arrVariable);
 
+/* When we re-assigned it gives uncaught Type error */
+/* const arrVariable = [14, 15, 16];  */
+/* console.log(arrVariable); */
+/* How to change const without an error */
+arrVariable.push(17,18,19);
+console.log(arrVariable);
+/* Successfully re-assigned without error */
+
+				</script>
+</body>
+</html>
