@@ -1,0 +1,5 @@
+Design a singal static page using only Bootstrap .
+ You can not use customised CSS style . 
+Navbar and footer are compulsory . 
+you can design what ever you want . 
+show your creativity .
