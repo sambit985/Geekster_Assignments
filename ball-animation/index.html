@@ -38,7 +38,7 @@
     	setInterval(function() {
             animate();
     		gameBack();
-    	}, 1000FPS);
+    	}, 1000/FPS);
     };
     function animate() {
    ball.pos.x += ball.direction.x * ball.speed;
@@ -71,7 +71,7 @@
         } else if (event.keyCode === 39) { 
         	xBall(1);
         } else if (event.keyCode === 38) { 
-        	yBall(-2);
+        	yBall(-1);
         } else if (event.keyCode === 40) { 
         	yBall(1);
         }
